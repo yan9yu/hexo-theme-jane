@@ -2,8 +2,11 @@
 menu:
   Home: /
   Archives: /archives
+  Categories: /categories
   Tag: /tags
 rss: /atom.xml
+
+enable_links: true
 
 # Content
 excerpt_link: More...
