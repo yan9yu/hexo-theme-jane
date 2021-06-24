@@ -5,14 +5,14 @@
   <% if (page.total > 1){ %>
     <nav id="page-nav">
       <%- paginator({
-        prev_text: '&laquo; Prev',
-        next_text: 'Next &raquo;'
+        prev_text: '« Prev',
+        next_text: 'Next »'
       }) %>
     </nav>
   <% } %>
 <% } else { %>
   <% var last; %>
-  <% 
+  <%
     var posts = site.posts
     if (page.tag) {
       posts = site.posts.filter(function(post) {
